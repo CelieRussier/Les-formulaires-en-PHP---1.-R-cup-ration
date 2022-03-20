@@ -1,19 +1,19 @@
 <form  action="thanks.php" method="post">
     <div>
       <label  for="firstname">Prénom :</label>
-      <input  type="text"  id="prenom"  name="user_firstname">
+      <input  type="text"  id="firstname"  name="user_firstname">
     </div>
     <div>
       <label  for="lastname">Nom :</label>
-      <input  type="text"  id="nom"  name="user_lastname">
+      <input  type="text"  id="lastname"  name="user_lastname">
     </div>
     <div>
       <label  for="email">Courriel :</label>
-        <input  type="email"  id="courriel"  name="user_email">
+        <input  type="email"  id="email"  name="user_email">
     </div>
     <div>
         <label for="tel">Téléphone</label>
-        <input type="number" name="user_phone_number">
+        <input type="number" id ="tel" ame="user_phone_number">
     </div>
     <div>
         <label for="language">Langage concerné</label>
